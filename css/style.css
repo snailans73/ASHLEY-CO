@@ -1,0 +1,448 @@
+h2 {
+  font-weight: 400;
+}
+
+a, button:hover {
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "FoundersGrotesk-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 1270px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+header {
+  background-color: #E7F066;
+  height: 120vh;
+  position: relative;
+}
+
+.main-header {
+  display: flex;
+  position: absolute;
+  padding-right: 40px;
+  width: 100vw;
+  top: 0;
+  z-index: 30;
+}
+.main-header__logo {
+  padding-left: 40px;
+  padding-top: 30px;
+  margin-right: auto;
+}
+.main-header__logo > img {
+  width: 100px;
+}
+.main-header__nav {
+  display: flex;
+  padding-right: 40px;
+}
+.main-header__nav > ul {
+  align-items: center;
+  display: flex;
+  list-style: none;
+}
+.main-header__nav > ul > li {
+  font-size: 13px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  margin-right: 25px;
+}
+.main-header__nav > ul > li:last-child > img {
+  margin-top: 5px;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 600px;
+  width: 65%;
+  float: left;
+}
+
+.flex-img {
+  display: flex;
+  height: 100%;
+  flex-shrink: 0;
+  background-position: 50%;
+  background-size: cover;
+}
+
+.padded-text {
+  padding: 0 40px;
+  margin: 40px 0;
+}
+.padded-text > h1 {
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.col-tx {
+  width: 35%;
+  float: left;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.col-tx__text {
+  padding-top: 80px;
+  margin-bottom: 40px;
+  margin-top: 60px;
+  padding-left: 45px;
+}
+.col-tx__text > p {
+  margin: 0 0 20px;
+}
+.col-tx__text > a {
+  border-bottom: 1px solid;
+  padding-bottom: 3px;
+  font-family: "FoundersGrotesk-Medium", sans-serif;
+  font-size: 13px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #262626;
+}
+
+.rectangle {
+  position: absolute;
+  height: 264px;
+  left: 55%;
+  right: 2%;
+  top: 60%;
+  background: #1B1B1B;
+  border-radius: 0px;
+}
+.rectangle > p {
+  position: absolute;
+  left: 13.77%;
+  right: 15.1%;
+  top: 57px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.5px;
+  color: #F1F1EE;
+}
+.rectangle > a {
+  position: absolute;
+  left: 13.5%;
+  top: 160px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: #F1F1EE;
+  border-bottom: 1px solid;
+  padding-bottom: 3px;
+  text-decoration: none;
+}
+
+.brown-bg {
+  height: 100vh;
+  background: #9C8554;
+}
+
+.brown {
+  display: flex;
+  justify-content: space-between;
+}
+.brown__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: inherit;
+  flex: 1 1 300px;
+}
+.brown__title h2 {
+  color: #b2b2b2;
+}
+.brown__left__text p {
+  color: #b2b2b2;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.brown__left__text > a {
+  border-bottom: 1px solid;
+  padding-bottom: 3px;
+  font-family: "FoundersGrotesk-Medium", sans-serif;
+  font-size: 13px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #b2b2b2;
+}
+.brown__picture {
+  flex: 1 1 65%;
+}
+.brown__img {
+  height: 80vh;
+  overflow: hidden;
+}
+.brown__img img {
+  width: 100%;
+}
+.brown__right__text {
+  color: #b2b2b2;
+  text-align: right;
+}
+
+.gallery {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+.gallery__img {
+  display: flex;
+  flex-wrap: wrap;
+}
+.gallery__img > img {
+  width: 100%;
+}
+.gallery__text {
+  position: absolute;
+  top: 90%;
+  margin-left: 40px;
+}
+.gallery__text > a {
+  border-bottom: 1px solid;
+  padding-bottom: 3px;
+  font-family: "FoundersGrotesk-Medium", sans-serif;
+  font-size: 13px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.about {
+  display: flex;
+  height: 100vh;
+  background-color: #EBEBEB;
+}
+.about__picture {
+  flex: 1 1 55%;
+  overflow: hidden;
+  margin: 80px 25px;
+}
+.about__picture > img {
+  width: 100%;
+}
+.about__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 33.3%;
+}
+.about__text h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  text-transform: uppercase;
+  align-self: flex-start;
+}
+.about__text h2 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  color: #262626;
+  text-transform: uppercase;
+  margin-top: 11px;
+  margin-bottom: 29px;
+}
+.about__text > p {
+  margin: 10px 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.5px;
+}
+.about__text__first {
+  font-size: 14px;
+}
+.about__text__second {
+  font-size: 16px;
+}
+.about__text > a {
+  border-bottom: 1px solid;
+  margin-top: 11px;
+  padding-bottom: 3px;
+  font-family: "FoundersGrotesk-Medium", sans-serif;
+  font-size: 13px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #262626;
+  align-self: flex-start;
+}
+
+.shop {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.shop__text {
+  width: 33.3%;
+  padding-top: 9%;
+  margin-left: 40px;
+}
+.shop__text h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  text-transform: uppercase;
+  align-self: flex-start;
+}
+.shop__text h2 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  color: #262626;
+  text-transform: uppercase;
+  margin-top: 11px;
+  margin-bottom: 29px;
+}
+.shop__text > p {
+  margin: 10px 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.5px;
+}
+.shop__text > a {
+  border-bottom: 1px solid;
+  padding-bottom: 3px;
+  font-family: "FoundersGrotesk-Medium", sans-serif;
+  font-size: 13px;
+  letter-spacing: 1.2px;
+  text-decoration: none;
+  color: #262626;
+  align-self: flex-start;
+}
+
+.pink-bg {
+  background-color: #A26779;
+  height: 100vh;
+}
+
+.grey-bg {
+  background-color: #504B4D;
+  height: 100vh;
+}
+
+.red-bg {
+  background-color: #B04836;
+  height: 100vh;
+}
+
+footer {
+  background-color: #262626;
+  height: 40vh;
+  display: flex;
+  position: relative;
+}
+footer .foo-text {
+  padding-top: 4.5%;
+  padding-left: 3%;
+  color: #cccccc;
+  display: flex;
+  flex-direction: column;
+}
+footer .foo-text p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 0.5px;
+}
+footer .foo-text__form {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 4%;
+}
+footer .foo-text__form > input {
+  margin-right: 10px;
+  background: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #cccccc;
+  width: 20%;
+  color: #F1F1EE;
+  outline: none;
+}
+footer .foo-text__paragraf {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
+footer .foo-text__paragraf__ff {
+  margin-left: 17.7%;
+}
+footer .foo-text__paragraf__ss {
+  margin-left: 17.7%;
+}
+footer .foo-text__paragraf__ss__submit {
+  background: transparent;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #cccccc;
+  outline: none;
+}
+footer .foo-text__paragraf__ss__submit:hover {
+  cursor: pointer;
+}
+footer .foo-rectangle {
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  right: 4%;
+  top: 25.5%;
+  background: #CCCCCC;
+}
